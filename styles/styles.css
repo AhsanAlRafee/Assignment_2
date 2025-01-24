@@ -1,0 +1,92 @@
+nav a{
+    text-decoration: none;
+    padding: 0 10px;
+   
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10PX 70px;
+    align-items: center;
+}
+.menu{ display: flex;
+    justify-content: space-between;
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sc{
+    font-size: 32px;
+    
+}
+.sch{
+    padding: 0 5px 10px 5px;
+}
+.home{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 20px;
+    color: skyblue;
+    font-weight: medium;
+}
+.faci{
+    font-size: 20px;
+    color: #05D4DF;
+    font-weight: medium;
+}
+.admi{
+    font-size: 20px;
+    color: #5D58EF;
+    font-weight: medium;
+}
+.cona{
+    text-decoration: none;
+}
+.contact{
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight:600;
+    padding: 10px 60.5px;
+}
+.cont{
+    color: #FFFFFF;
+    
+}
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-style: normal;
+}
+.Container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 141px;
+}
+.kidspera1{
+    font-size: 56px;
+    font-weight: bold;
+
+}
+.kidspera2{
+    font-size: 20px;
+
+}
+.con1btn{
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 10px 47px;
+    margin: 10px 0 0 0;
+}
