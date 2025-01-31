@@ -4,11 +4,16 @@ nav a{
    
     
 }
+.mainclass{
+    width: 1280px;
+}
+
 section{
     display: flex;
     justify-content: space-between;
-    padding: 10PX 70px;
     align-items: center;
+    width: 1031px;
+    margin: 0 auto;
 }
 .menu{ display: flex;
     justify-content: space-between;
@@ -62,18 +67,42 @@ section{
     
 }
 
+
 .quicksand {
   font-family: "Quicksand", serif;
   font-style: normal;
+}
+.first{
+    width: 1280px;
+    margin: 0 auto;
+    border: solid black;
 }
 .Container1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 141px;
+    width: 1031px;
+    border: solid black;
+    margin: 0 auto;
+}
+.con1d1{
+    width: 569px;
+    right: 45px;
+}
+.Empowering{
+    color: orange;
+}
+.towards{
+color: skyblue;
+}
+.con1d2{
+    width: 417px;
+}
+.con1d2 img{
+    width: 100%;
 }
 .kidspera1{
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
 
 }
@@ -89,4 +118,75 @@ section{
     border-radius: 7px;
     padding: 10px 47px;
     margin: 10px 0 0 0;
+}
+.Container2{
+    background-image: url(/assets/bg.png);
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.con2d2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1031px;
+    margin: 0 auto;
+}
+.con2d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+
+}
+.kinder{
+    
+    background-image: linear-gradient(to top, hwb(0 100% 0%),hwb(0 100% 0%), hwb(0 100% 0%), #DEF5FF, #DEF5FF);
+
+
+}
+.kin1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kin2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kin3{
+    display: flex;
+    justify-content: center;
+   
+}
+.kin4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con2d3{
+    display: flex;
+    justify-content: center;
+}
+.container3{
+    background-image: url(/assets/bg.png);
+}
+.con3body{
+    display: flex;
+
+}
+.con3d3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width:576px)
+{
+    .Container1{
+        flex-direction: column;
+     position: center;
+     margin: 150px;
+     width: 100%;
+       
+    }
+   
 }
