@@ -448,6 +448,9 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
 @media screen and (max-width:576px)
 {
+    .first{
+        width: 357px;
+    }
 .Container1{
     
     flex-direction: column-reverse;
@@ -477,6 +480,18 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 .con1btnd{
     display: flex;
+    justify-content: center;
+}
+
+.Container2{
+    border: solid sandybrown;
+    padding: 0 auto;
+    justify-content: center;
+    width: 357px;
+}
+.con2d2{
+    width: 357px;
+    flex-direction: column-reverse;
     justify-content: center;
 }
    
