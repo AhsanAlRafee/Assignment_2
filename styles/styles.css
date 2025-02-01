@@ -24,30 +24,30 @@ section{
     align-items: center;
 }
 .sc{
-    font-size: 32px;
+    font-size: 29px;
     
 }
 .sch{
     padding: 0 5px 10px 5px;
 }
 .home{
-    font-size: 20px;
+    font-size: 18px;
     color: orange;
     font-weight: bold;
 
 }
 .about{
-    font-size: 20px;
+    font-size: 18px;
     color: skyblue;
     font-weight: medium;
 }
 .faci{
-    font-size: 20px;
+    font-size: 18px;
     color: #05D4DF;
     font-weight: medium;
 }
 .admi{
-    font-size: 20px;
+    font-size: 18px;
     color: #5D58EF;
     font-weight: medium;
 }
@@ -104,20 +104,22 @@ color: skyblue;
 .kidspera1{
     font-size: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
 
 }
 .kidspera2{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
 
 }
 .con1btn{
     background-color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
     border-radius: 7px;
-    padding: 10px 47px;
-    margin: 10px 0 0 0;
+    width: 175px;
+    height: 45px;
 }
 .Container2{
     background-image: url(/assets/bg.png);
@@ -136,48 +138,186 @@ color: skyblue;
     justify-content: center;
     align-items: center;
     border: solid black;
+    margin: 54px 0 71px 0;
 
 }
 .kinder{
-    
-    background-image: linear-gradient(to top, hwb(0 100% 0%),hwb(0 100% 0%), hwb(0 100% 0%), #DEF5FF, #DEF5FF);
-
-
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 328px;
+}
+.elementary{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 328px;
+}
+.middle{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    width: 328px;
 }
 .kin1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 46px;
 }
 .kin2{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
 }
 .kin3{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 254px;
+    margin-bottom: 30px;
    
 }
 .kin4{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 47px;
+
+}
+.kin4 > button{
+    background-color: white;
+    color: #64C8FF;
+    border: none;
+}
+.read1{
+    color: #F0AA00;
+}
+.read2{
+    color: #8700FF;
 }
 .con2d3{
     display: flex;
     justify-content: center;
+    margin: 71px 0 54px 0;
+}
+.con2d3nav{
+    width: 53px;
+    height: 53px;
+    background-color: orange;
+    border-radius: 360px;
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight:bolder;
+    font-size: 28px;
+    
+}
+.con2d3nav1{
+    width: 53px;
+    height: 53px;
+    background-color: orange;
+    border-radius: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight:bolder;
+    font-size: 28px;
 }
 .container3{
-    background-image: url(/assets/bg.png);
+    background-image: url(../assets/bg.png);
+    width: 1280px;
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.con3bo{
+    width: 1280px;
 }
 .con3body{
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1031px;
 
 }
+.con3d1{
+    display: flex;
+    justify-content: center;
+    margin: 53px 0 71px 0;
+    font-size: 41px;
+
+}
+.con3d2{
+    width: 481px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.fun{
+    width:413px;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 53px auto 42px;
+}
+.beauty{
+    width:413px;
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0 auto 30px;
+    color: #666666;
+    
+
+}
+.con3d2 img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+.con3img1 img{
+    width: 100% ;
+    border-radius: 15px 15px 0 0;
+}
+.con3img1{
+    border-radius: 15px;
+    display: grid;
+    gap: 10px;
+    background-color: #FFFFFF;
+    
+}
+
 .con3d3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 535px;
+    gap: 17px;
+    border-radius: 15px;
+}
+.con3d4{
+   margin:0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.con3d4 button{
+    width: 175px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 71px 0 53px 0;
+    background-color: black;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 @media screen and (max-width:576px)
 {
