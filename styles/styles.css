@@ -448,22 +448,36 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
 @media screen and (max-width:576px)
 {
-
-    .Container1{
-        flex-direction: column-reverse;
-     position: center;
-     width: 100%;
-     margin: none;
-       
-    }
-    .kidspera1{
-        width: 100%;
-    }
-    .kidspera2{
-        width: 100%;
-    }
-    .first{
-        
-    }
+.Container1{
+    
+    flex-direction: column-reverse;
+    width: 357px;
+}
+.con1d1{
+    width: 357px;
+}
+.con1d2{
+    width: 318px;
+}
+.kidspera1{
+    width: 357px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: none;
+    height: 160px;
+    margin: 0 0 0 0;
+}
+.kidspera2{
+    font-size: 14px;
+    padding: 35px;
+    margin: 0 0 10px 0;
+    height: 45px;
+    
+}
+.con1btnd{
+    display: flex;
+    justify-content: center;
+}
    
 }
