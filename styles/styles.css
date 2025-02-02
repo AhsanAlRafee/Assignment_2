@@ -4,6 +4,9 @@ nav a{
    
     
 }
+.smallmenu{
+    display: none;
+}
 .mainclass{
     width: 1280px;
 }
@@ -448,6 +451,38 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 
 @media screen and (max-width:576px)
 {
+    .smallmenu{
+        display: flex;
+    }
+    .menubar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menubar nav li{
+        list-style: none;
+    }
+    nav li .dropdown{
+        display: none;
+        text-decoration: none;
+        position: absolute;
+        background-color: antiquewhite;
+    }
+    nav li:hover .dropdown{
+        display: block;
+        width: 50px;
+        padding-right: 60px;
+        margin-left: 70px;
+    }
+    .navimg{
+        width: 50px;
+        height: 50px;
+        margin-left: 200px;
+    }
+    
+    
+    .quicksand{
+        width: 357px;
+    }
     .first{
         width: 357px;
     }
@@ -484,7 +519,6 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 .Container2{
-    border: solid sandybrown;
     padding: 0 auto;
     justify-content: center;
     width: 357px;
@@ -494,5 +528,79 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     flex-direction: column-reverse;
     justify-content: center;
 }
-   
+.con2d3{
+    display: none;
+}
+.container3{
+    height: 100%;
+    width: 357px;
+    justify-content: center;
+}
+.con3body{
+    width: 345px;
+    flex-direction: column;
+    justify-content: center;
+}
+.con3bo{
+    width: 345px;
+}
+.con3d2{
+    width: 357px;
+    display: none;
+}
+.con3d3{
+    width: 335px;
+    gap: 5px;
+}
+.con3img1{
+    width: 172px;
+}
+.con3img1 img{
+    width: 172px;
+}
+.con3d1{
+    margin: none;
+}
+
+.date2{
+    position: relative;
+    left: 9px;
+}
+.class{
+    margin-left: 15px;
+}
+.footerbody{
+    flex-direction: column;
+    width: 357px;
+    height: 100%;
+    padding-bottom: 80px;
+    
+}
+.footer{
+    height: 100%;
+    width: 357px;
+}
+.footer1{
+    width: 357px;
+    align-items: top;
+}
+.footer1d1{
+    width: 260px;
+    margin-left: 15px;
+}
+.footer1d2{
+    width: 300px;
+    margin-left: 22px;
+}
+.about{
+    width: 260px;
+    margin-left: 15px;
+}
+.touch{
+    width: 260px;
+    margin-left: 15px;
+}
+.quicksand{
+    display: none;
+}
 }
